@@ -1,0 +1,258 @@
+*, *:before, *:after{box-sizing: border-box;
+  font-family: Noto Sans TC;
+  }
+a {text-decoration: none;}
+
+.wrap {max-width: 1024px;
+min-width: 320px;
+margin: 2% auto;
+background-color: #fff;
+font-weight: bold;
+}
+
+.nav{display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 20px 0px;
+}
+.nav .logo{display: block;
+width: 100%;
+max-width: 300px;}
+
+.button ul{display: flex;
+  align-items: center;}
+.nav .button a{
+padding: 0px 20px;
+font-size: 15px;
+letter-spacing: 1px;
+color: #3F5D45;
+}
+.nav .button a:hover{color: #ff8880;
+font-size: 1.3em;}
+.shopping:hover{transform: scale(1.3);}
+
+.banner img{width: 100%;}
+
+.container{display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.container a{font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.menu {width: 25%;
+margin: 1%;
+margin-left: 0px;}
+.menu h2 {background-color: #3F5D45;
+color: #EAF0ED;
+text-align: center;
+padding: 15px;
+font-size: 17px;
+}
+.menu ul{width: 100%;}
+.menu ul li{
+  color: #EAF0ED;
+  text-align: center;
+  padding: 15px;
+  }
+.menu .order{color: #3F5D45;
+  background-color: #fff;
+  border:1px solid #EAF0ED;
+}
+.order a{display: block;
+  color: #3F5D45;}
+.menu .all{background-color: #EAF0ED;}
+.menu a:hover {color: #ff8880;
+font-size: 1.3em;}
+
+.cart {width: 69%;
+  margin: 1%;
+  margin-right: 0px;
+  background-color: #fff;
+  }
+.cart ul{width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+.cart01{width: 48%;
+  margin-bottom:2%;
+  text-align: center;
+  position: relative;
+  }
+.cart01 .choice{background-color: #3F5D45;
+color: #EAF0ED;
+writing-mode: vertical-lr;
+font-size: 14px;
+letter-spacing: 2px;
+padding: 10px;
+position: absolute;
+top:0px;
+left: 15px;
+}
+.cart01 .cake{width: 100%;}
+.cart01 a.favorite {position: absolute;
+top:0.5rem;
+right: 0.5rem;
+}
+.cart01 a.favorite:hover{transform: scale(1.3);}
+
+.cart01 button{display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  font-size: 19px;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  border: none;
+}
+button:hover{color:#ff8880 ;}
+
+.cart01 h3{color: #3F5D45;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #EAF0ED;}
+.cart01 h3 span{font-weight: bold;
+  border-left: 1px solid #EAF0ED ;
+  padding-left: 0.5rem;
+}
+
+.pages ul{display: flex;
+justify-content: flex-end;}
+.pages a.page01{color: #EAF0ED;
+  background-color: #3F5D45;
+}
+.pages a{display:block;
+box-sizing: border-box;
+border: 1px solid #EAF0ED;
+color: #3F5D45;
+width: 60px;
+height: 60px;
+text-align: center;
+padding: 20px;
+font-weight: normal;
+}
+.pages a:hover{background-color:#FFE180;
+color:#3F5D45;}
+.pages a img{width: 24px;}
+.pages a img:hover{transform: scale(1.5);}
+
+.subscribe{display: flex;
+justify-content: space-around;
+align-items: center;
+background-color:#3F5D45;
+padding: 1.5rem;
+}
+
+.sub_left{color:#EAF0ED;
+}
+.sub_left img{display: inline-block;
+  width: 2rem;
+  vertical-align: text-bottom;
+}
+.sub_left label {display: inline-block;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.sub_right form{display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EAF0ED;
+}
+
+.sub_right form img{display:block;
+  width: 1.5rem;
+margin: 0 1rem;}
+
+.sub_right input {display:block;
+  border: none;
+  outline: none;
+background-color: #EAF0ED;
+margin: 0.5rem;}
+
+.sub_right button{display: block;
+background-color: #FFE180;
+border: none;
+}
+.sub_right button img{width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+}
+.sub_right button img:hover{transform: scale(1.3);}
+
+.footer{
+display: flex;
+justify-content: center;
+background-color: #EAF0ED;
+}
+.contact {margin:1.5rem auto;}
+.contact .sweet img{max-width: 300px;
+margin: 0px 1.5rem 3rem;}
+.contact ul{margin: 20px;}
+.contact li{color: #3F5D45;
+font-size: 13px;
+letter-spacing: 1px;
+padding: 3px;
+font-weight: normal;
+}
+.fans{margin: 30px;}
+.fans a img{max-width: 24px;
+}
+.slogan{margin:1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.slogan .days {writing-mode: vertical-rl;
+color: #3F5D45;
+font-family: DFKai-SB;
+font-weight: bolder;
+font-size: 23px;
+letter-spacing: 3px;
+line-height: 1.5;
+margin:0 3rem 1.5rem 0;
+}
+.slogan p{color: #3F5D45;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+@media (max-width:1024px)
+{.wrap{margin: 2%;}}
+
+@media (max-width:670px)
+{.nav{flex-direction: column;
+align-items: center;}
+.logo {width: 75%;
+padding: 1rem;}
+.container{display: flex;
+flex-direction: column;}
+.container .menu {width: 100%;
+display: flex;
+justify-content: space-between;}
+.container .menu h2{writing-mode: vertical-lr;}
+.container .cart {width: 100%;
+margin: auto 0;}
+
+.subscribe{flex-direction: column;}
+}
+
+@media (max-width:480px)
+{.footer{flex-direction: column;}
+.contact {margin:1rem 1rem 0;}
+.slogan {margin: 0.5rem auto;}
+  .slogan .days {display: none;
+  margin: 0;}
+}
